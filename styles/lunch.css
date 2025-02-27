@@ -1,0 +1,71 @@
+.lunch {
+    margin-top: 65px;
+    padding: 39px 60px 48px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    margin-top: 37px;
+    gap: 27px;
+    align-items: center;
+}
+
+.title-foods-one {
+    display: flex;
+    justify-content: center;
+}
+
+.title-foods-one h2 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.title-foods-two {
+    display: flex;
+    justify-content: center;
+}
+
+.title-foods-two h2 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.about-foods {
+    padding: 15px 9px;
+}
+
+.description-foods {
+    margin-top: 13px;
+    text-align: justify;
+
+}
+
+.descrription-foods p {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.btn-foods button{
+    margin-top: 13px;
+    background-color: var(--color-button);
+    color: #FFFFFF;
+    padding: 15px 22px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    cursor: pointer;
+
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.dinner{
+    margin-top: 65px;
+    padding: 39px 60px 48px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
