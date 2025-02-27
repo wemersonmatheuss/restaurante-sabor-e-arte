@@ -1,0 +1,151 @@
+.reserve {
+    background-image: url("../assets/background-two.png");
+    height: 960px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    margin-top: 65px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opening-hours {
+    background-color: var(--background-form);
+    width: 490px;
+    color: white;
+    padding: 109px 28px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.title-time h4 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.description-time {
+    margin-top: 64px;
+}
+
+.description-time p {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.description-time p span {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--color-button);
+}
+
+.line-time {
+    background-color: #FFFFFF;
+    height: 2px;
+    width: 80%;
+    margin: 86px auto;
+}
+
+.number-contact img {
+    width: 50px;
+    height: 50px;
+}
+
+.number-contact p:nth-child(2) {
+    margin-top: 21px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.number-contact p:nth-child(3) {
+    margin-top: 6px;
+    color: var(--color-button);
+}
+
+
+
+/*  Make Reserve */
+
+
+.make-reserve {
+    background-color: #FFFFFF;
+    height: 960px;
+    color: black;
+    padding: 109px 49px 71px 49px;
+    border-radius: 15px;
+    margin-top: 45px;
+}
+
+form {
+    width: 610px;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    margin: 0 auto;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-wrapper label {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 27px;
+    opacity: 0.6;
+}
+
+.input-wrapper input {
+    border: 1px solid black;
+    opacity: 0.4;
+    border-radius: 10px;
+    height: 40px;
+    padding: 16px;
+    margin-top: 5px;
+}
+
+.input-wrapper input:focus {
+    outline: none;
+    opacity: 1;
+}
+
+
+.date-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.date-wrapper .input-wrapper {
+    width: 45%;
+}
+
+.btn-reserve {
+    display: flex;
+    justify-content: center;
+    margin-top: 67px;
+}
+
+.btn-reserve button {
+    background-color: var(--color-button);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 27px;
+    padding: 15px 21px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+    font-size: 15px;
+    font-weight: 600;
+}
