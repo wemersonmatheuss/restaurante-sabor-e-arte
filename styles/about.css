@@ -1,0 +1,51 @@
+.about {
+    margin-top: 65px;
+    display: flex;
+    padding: 48px 60px;
+    gap: 27px;
+    justify-content: center;
+}
+
+.about-we {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.title h2 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.description-about-we {
+    margin-top: 20px;
+    padding: 15px 9px;
+}
+
+.description-about-we p {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: justify;
+    color: #000000;
+    opacity: 0.8;
+}
+.btn-about-we {
+    margin-top: 13px;
+}
+
+.btn-about-we button {
+    background-color: var(--color-button);
+    color: #FFFFFF;
+    border-radius: 15px;
+    border: none;
+    padding: 15px 22px;
+
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
