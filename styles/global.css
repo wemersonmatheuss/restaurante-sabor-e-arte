@@ -11,5 +11,12 @@
     --color-button: #6D0A33;
     --background-form: #1C1B1B;
     --color-text: #FFFFFF;
+}
 
+a {
+    text-decoration: none;
+}
+
+.main-container {
+    height: 100vh;
 }

@@ -1,0 +1,56 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 44px;
+    align-items: center;
+    
+}
+
+.right p {
+    font-size: 32px;
+    font-weight: 500; 
+    color: var(--color-orange);     
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+li {
+    margin-right: 15px;
+}
+li a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+li a:hover {
+    color: var(--color-orange);
+    transition: 0.3s;
+}
+
+.img-li {
+    width: 27px;
+    height: 27px;
+}
+
+li button {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 24px;
+    background-color: var(--color-orange);
+    border: none;
+    color: #FFFFFF;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+li button:hover {
+    opacity: 0.8;
+}
