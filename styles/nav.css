@@ -1,9 +1,13 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 40px 44px;
     align-items: center;
-    
+    position: fixed;
+    background-color: rgb(33, 32, 32);
+    width: 100vw;
+    margin: 0 auto;
+    z-index: 1000;
+    padding: 15px 25px;
 }
 
 .right p {
@@ -25,7 +29,7 @@ li a {
     display: flex;
     align-items: center;
     gap: 5px;
-    color: #000000;
+    color: white;
     font-size: 20px;
     font-weight: 500;
 }

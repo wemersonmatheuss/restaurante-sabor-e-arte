@@ -13,6 +13,14 @@
     --color-text: #FFFFFF;
 }
 
+body {
+    background-color: #d0cfcf;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 a {
     text-decoration: none;
 }
