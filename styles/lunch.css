@@ -89,3 +89,28 @@
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
 }
+
+.img-lunch2 {
+    display: flex;
+    position: fixed;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Fundo escuro transparente */
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-lunch img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.img-foods img{
+    width: 400px;
+    height: 400px;
+}
