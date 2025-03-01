@@ -114,3 +114,31 @@
     width: 400px;
     height: 400px;
 }
+
+@media screen and (max-width: 1200px) {
+    .lunch {
+        padding-inline: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-foods img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .description-foods {
+        padding-inline: 15px;
+    }
+
+    .btn-foods {
+        display: flex;
+        justify-content: center;
+    }
+}
