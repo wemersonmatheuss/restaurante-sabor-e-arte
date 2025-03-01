@@ -157,6 +157,7 @@ legend {
 
    .make-reserve {
     margin-top: 5px;
+    padding-bottom: 0;
    }
 
    .make-reserve form {
