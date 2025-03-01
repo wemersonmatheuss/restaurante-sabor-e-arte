@@ -13,6 +13,9 @@ const buttonAbout = document.querySelector("#btn-about");
 const buttonLunch2 = document.querySelector(".btn-lunch2")
 const imgLunch2 = document.querySelector(".img-lunch2")
 
+
+
+
 // Adicionando o evento de click ao botão
 button.addEventListener("click", () => {
     // Fazendo o scroll até a seção
@@ -52,5 +55,49 @@ imgLunch2.addEventListener("click", function (event) {
         imgLunch2.style.display = "none"
     }
 })
+
+
+// menu mobile
+const imgMenu = document.querySelector(".icon-menu");
+const linksMobile = document.querySelector(".links-mobile")
+const iconWats = document.querySelector(".icon-wats");
+const iconArroww = document.querySelector(".icon-arrow");
+
+const imgMoboleX = document.querySelector(".img-mobile-x");
+
+const ul = document.querySelector("#ul")
+
+linksMobile.style.display = "none"
+imgMoboleX.style.display = "none"
+
+iconWats.style.display = "block"
+iconArroww.style.display = "block"
+
+imgMenu.addEventListener("click", () => {
+   
+    linksMobile.style.display = "block"
+    imgMoboleX.style.display = "block"
+    iconWats.style.display = "none"
+    iconArroww.style.display = "none"
+    imgMoboleX.style.display = "flex"
+    imgMoboleX.style.justifyContent = "flex-end"
+    imgMoboleX.style.marginTop = "20px"
+    imgMoboleX.style.marginRight = "20px"
+    
+
+      
+})
+
+imgMoboleX.addEventListener("click", () => {
+    linksMobile.style.display = "none"
+    iconWats.style.display = "block"
+    iconArroww.style.display = "block"
+})
+
+ul.addEventListener("click", () => {
+    linksMobile.style.display = "none"
+})
+
+
 
 
