@@ -50,6 +50,14 @@ footer {
     display: none;
 }
 
+.icon-arrow {
+    display: none;
+}
+
+.icon-wats {
+    display: none;
+}
+
 
 @media screen and (max-width: 1200px) {
     footer {
@@ -106,11 +114,11 @@ footer {
     }
 
     .icon-arrow {
-        display: none;
+        display: block;
     }
 
     .icon-wats {
-        display: none;
+        display: block;
         /* teste */
     }
 }

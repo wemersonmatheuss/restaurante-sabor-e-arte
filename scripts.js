@@ -70,8 +70,8 @@ const ul = document.querySelector("#ul")
 linksMobile.style.display = "none"
 imgMoboleX.style.display = "none"
 
-iconWats.style.display = "block"
-iconArroww.style.display = "block"
+// iconWats.style.display = "none"
+// iconArroww.style.display = "none"
 
 imgMenu.addEventListener("click", () => {
    
