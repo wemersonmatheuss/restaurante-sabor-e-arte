@@ -104,5 +104,13 @@ footer {
         bottom: 20px;
         z-index: 1000;
     }
+
+    .icon-arrow {
+        display: none;
+    }
+
+    .icon-wats {
+        display: none;
+    }
 }
 
