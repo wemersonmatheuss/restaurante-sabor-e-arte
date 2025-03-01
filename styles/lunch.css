@@ -120,6 +120,7 @@
         padding-inline: 0;
         justify-content: center;
         align-items: center;
+        padding-bottom: 0;
     }
 
     .container {
@@ -137,8 +138,16 @@
         padding-inline: 15px;
     }
 
+    .description-foods p {
+        font-size: 18px;
+    }
+
     .btn-foods {
         display: flex;
         justify-content: center;
+    }
+
+    .dinner {
+        padding-inline: 0;
     }
 }
