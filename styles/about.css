@@ -72,6 +72,10 @@
         padding-inline: 15px;
     }
 
+    .description-about-we p {
+        font-size: 18px;
+    }
+
     .btn-about-we {
         display: flex;
         justify-content: center;
