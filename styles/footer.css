@@ -46,3 +46,43 @@ footer {
     align-items: center;
 }
 
+.title-logo p:nth-child(2) {
+    display: none;
+}
+
+
+@media screen and (max-width: 1200px) {
+    footer {
+        padding-inline: 15px;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 10px;
+        padding-block: 30px;
+    }
+
+    .title-logo p {
+        font-size: 32px;
+    }
+
+    .title-logo p:nth-child(1) {
+        display: none;
+    }
+
+    .title-logo p:nth-child(2) {
+        display: block;
+    }
+
+    .social-links-footer {
+        display: none;
+    }
+
+    .icons-footer {
+        gap: 20px;
+    }
+
+    .contact img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
