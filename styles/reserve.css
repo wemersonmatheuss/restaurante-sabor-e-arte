@@ -1,6 +1,5 @@
 .reserve {
     background-image: url("../assets/background-two.png");
-    height: 960px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,7 +13,6 @@
 
 .opening-hours {
     background-color: var(--background-form);
-    width: 490px;
     color: white;
     padding: 109px 28px;
     text-align: center;
@@ -73,7 +71,7 @@
     background-color: #FFFFFF;
     height: 960px;
     color: black;
-    padding: 109px 49px 71px 49px;
+    padding: 109px 49px 0 49px;
     border-radius: 15px;
     margin-top: 45px;
 }
@@ -152,5 +150,24 @@ legend {
 
 
 @media screen and (max-width: 1200px) {
-    
+   .reserve {
+    flex-direction: column;
+    background-image: none;
+   } 
+
+   .make-reserve {
+    margin-top: 5px;
+   }
+
+   .make-reserve form {
+    width: 100%;
+   }
+   
+   legend {
+    font-size: 30px;
+   }
+
+   .btn-reserve {
+    margin-top: 40px;
+   }
 }
