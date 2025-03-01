@@ -49,3 +49,8 @@
     font-weight: 600;
     cursor: pointer;
 }
+
+.img-about img {
+    width: 400px;
+    height: 400px;
+}
