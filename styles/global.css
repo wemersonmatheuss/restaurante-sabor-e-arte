@@ -18,10 +18,15 @@ html {
     scroll-behavior: smooth;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 a {
     text-decoration: none;
 }
 
 .main-container {
     height: 100vh;
+    width: 100vw;
 }
