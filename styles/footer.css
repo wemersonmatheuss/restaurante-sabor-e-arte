@@ -92,7 +92,16 @@ footer {
         display: block;
         position: fixed;
         right: 20px;
-        bottom: 50px;
+        bottom: 20px;
+        z-index: 1000;
+    }
+
+
+    .icon-arrow {
+        display: block;
+        position: fixed;
+        left: 20px;
+        bottom: 20px;
         z-index: 1000;
     }
 }
